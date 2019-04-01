@@ -1,0 +1,47 @@
+table, td {
+    padding: 5px;
+}
+
+input {   
+    text-align: center;
+}
+
+table {
+    border: 2px solid black;
+}
+
+.button.green{
+    color: #000000;
+    text-shadow: 0 1px 0 rgba(0,0,0,.2);
+    
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,.3)), to(rgba(255,255,255,0)));
+    background-image: -webkit-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+    background-image: -moz-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+    background-image: -ms-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+    background-image: -o-linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+    background-image: linear-gradient(top, rgba(255,255,255,.3), rgba(255,255,255,0));
+  }
+  
+  label {
+      color: #fff;
+  }
+  
+  .button.green{
+    background-color: #57a957;
+    border-color: #57a957;
+  }
+  
+  .button.green:hover{
+    background-color: #62c462;
+  }
+  
+  .button.green:active{
+    background: #57a957;
+  }
+
+body {
+    background-color: #363c52; 
+    min-width: 350px;
+    max-width: 100%;
+    max-height: 100%;
+}

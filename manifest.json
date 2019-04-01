@@ -1,0 +1,11 @@
+{
+    "name": "Cookie Fetcher",
+    "version": "1.0",
+    "description": "To fetch Token for Postman on-the-go",
+    "manifest_version": 2,
+    "browser_action": {
+        "default_popup": "popup.html",
+        "default_icon": "dev_icon.png"
+    },
+    "permissions": ["cookies","<all_urls>","tabs","storage"]
+}
